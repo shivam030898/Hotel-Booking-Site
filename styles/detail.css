@@ -35,4 +35,9 @@ form {
 }
 .Footer {
   background-color: rosybrown;
+  height: 50px;
+}
+.Footer img {
+  float: right;
+  margin-right: 40px;
 }
