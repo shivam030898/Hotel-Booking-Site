@@ -1,11 +1,43 @@
-div {
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
   width: 100vw;
+  height: 100vh;
+  background-color: #e0e0e0;
 }
 .Header img {
   width: 60px;
   height: 60px;
 }
-.Content img {
-  width: 150px;
-  height: 150px;
+.Header {
+  background-color: rosybrown;
+  width: 100%;
+  height: 60px;
+}
+
+.City {
+  background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  width: 200px;
+  padding: 5px;
+  justify-content: space-between;
+}
+.row {
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.column img {
+  border-radius: 10px;
+}
+.Footer {
+  background-color: rosybrown;
 }
