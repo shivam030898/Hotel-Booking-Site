@@ -35,6 +35,10 @@ body {
   background-color: rosybrown;
   height: 50px;
 }
+#link {
+  text-decoration: none;
+  text-align: end;
+}
 .Footer img {
   float: right;
   margin-right: 40px;

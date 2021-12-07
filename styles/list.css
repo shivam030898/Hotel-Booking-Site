@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   width: 100vw;
   height: 100vh;
@@ -9,6 +10,16 @@ body {
 }
 .main ol li {
   text-decoration: dotted;
+}
+.row {
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.row2 {
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
 }
 .logo {
   width: 60px;
@@ -39,6 +50,14 @@ body {
 .Footer {
   background-color: rosybrown;
   height: 50px;
+  font-family: Ubuntu, monospace;
+}
+.Footer p {
+  text-align: center;
+}
+#link {
+  text-decoration: none;
+  text-align: end;
 }
 .Footer img {
   float: right;
